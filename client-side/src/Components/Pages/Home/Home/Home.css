@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Lobster+Two:ital,wght@1,700&display=swap");
+.logo {
+  font-family: "Lobster Two", cursive !important;
+  font-weight: 700;
+  color: #8babdb;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 0.15px;
+  background: #040b14;
+}
+.img-set {
+  overflow: hidden;
+  margin: 15px auto;
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+.img-set:hover {
+  border: 8px solid rgb(216, 18, 84);
+}
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#header .profile .social-link a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  transition-duration: 1s;
+}
+#header .profile .social-link a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-menu {
+  padding-top: 30px;
+}
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+.nav-menu a i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-menu a:hover > i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a {
+  color: #149ddd;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
