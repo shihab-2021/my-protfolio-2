@@ -58,13 +58,16 @@ function Home(props) {
               <a href="/">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="/">
-                <i className="fab fa-facebook"></i>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/md-shajibul-alam-shihab-b96576216/"
+              >
+                <i className="fab fa-linkedin"></i>
               </a>
               <a href="/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="/">
+              <a target="_blank" href="https://github.com/shihab-2021">
                 <i class="fab fa-github"></i>
               </a>
             </div>
@@ -72,29 +75,23 @@ function Home(props) {
           <nav className="nav-menu">
             <ul>
               <li className="active">
-                <a href="/">
+                <NavLink to="/">
                   <i class="fas fa-home"></i>Home
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="#aboutMe">
+                <a activeClassName="active" href={`#aboutMe`}>
                   <i class="far fa-user"></i>About
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <i class="far fa-user"></i>Resume
-                </a>
-              </li>
-
-              <li>
-                <a href="/">
-                  <i class="far fa-user"></i>Services
+                <a href="#resume">
+                  <i class="fab fa-steam-symbol"></i>Projects
                 </a>
               </li>
               <li>
                 <a href="#contact">
-                  <i class="far fa-user"></i>Contact
+                  <i class="fas fa-phone"></i>Contact
                 </a>
               </li>
             </ul>

@@ -1,5 +1,6 @@
 import { Toolbar } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import "./Banner.css";
 
@@ -33,6 +34,16 @@ const Banner = () => {
               ></Typewriter>
             </span>
           </h1>
+          <a
+            style={{ textDecoration: "none" }}
+            className="btn btn-outline-danger rounded-pill"
+            href={
+              "https://drive.google.com/u/0/uc?id=1GHgLxAPYuvSVkgG93VH0auNsnSzepYw3&export=download"
+            }
+            download="Abu_Bakker_Resume.pdf"
+          >
+            Download Resume <i class="fas fa-download"></i>
+          </a>
         </div>
       </section>
     </div>

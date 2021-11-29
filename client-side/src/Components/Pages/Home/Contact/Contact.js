@@ -15,10 +15,11 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          // document.getElementById("status").classList.add("success");
+          document.getElementById("status").style.pointerEvents = "all";
           document.getElementById("status").innerHTML =
             "Thank you for your message.";
+          document.getElementById("status").classList.add("success");
+          console.log(result.text);
         },
         (error) => {
           console.log(error.text);

@@ -24,13 +24,13 @@ const About = () => {
         <br />
         <div className="bg-secondary p-3 formal-info">
           <div className="row align-items-center">
-            <h3 data-aos="fade-right" className="heading text-info">
+            <h1 data-aos="fade-right" className="heading text-info">
               Formal Information
               <hr
                 className="m-0 p-0 fw-bold"
                 style={{ width: "50px", height: "3px" }}
               />
-            </h3>
+            </h1>
             <div
               style={{ fontSize: "30px" }}
               className="col-12 col-md-8 text-light"
@@ -62,7 +62,7 @@ const About = () => {
                     <li>
                       <span className="text-danger fw-bold">{">"}</span>{" "}
                       <span className="fw-bold">Degree: </span>
-                      CSE(in 2 year)
+                      CSE(in 2nd year)
                     </li>
                     <li>
                       <span className="text-danger fw-bold">{">"}</span>{" "}
